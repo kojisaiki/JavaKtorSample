@@ -1,5 +1,7 @@
 plugins {
     id 'java'
+    id 'java-library'
+    id 'maven-publish'
 }
 
 group 'io.saikou9901'
@@ -9,34 +11,17 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
-// ------------------------------------------------
-// publishing定義
-// ------------------------------------------------
 publishing {
     publications {
         module(MavenPublication) {
-            artifactId archivesBaseName
             from components.java
-
-            artifact sourceJar {
-                classifier "sources"
-            }
-            artifact javadocJar {
-                classifier "javadoc"
-            }
-        }
-    }
-
-    repositories {
-        maven {
-            name "local"
-            url "../local_repository"
         }
     }
 }
