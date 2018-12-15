@@ -1,6 +1,6 @@
-package io.saikou9901.JavaDomain.entity;
+package io.saikou9901.eventmanager.entity;
 
-import io.saikou9901.JavaDomain.value.期間;
+import io.saikou9901.eventmanager.value.期間;
 
 public class イベント {
 

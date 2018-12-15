@@ -21,6 +21,10 @@ dependencies {
 publishing {
     publications {
         module(MavenPublication) {
+            groupId = group
+            artifactId = 'javaktorsample-java-domain'
+            version = version
+
             from components.java
         }
     }
