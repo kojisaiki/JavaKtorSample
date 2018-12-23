@@ -14,6 +14,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JavaDomain$JavaDomain__junitPlatformTest_.ic" NAME="JavaDomain [junitPlatformTest] Coverage Results" MODIFIED="1545564160951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -100,8 +103,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="253" />
-          <entry key="JAVA" value="687" />
+          <entry key="Groovy" value="282" />
+          <entry key="JAVA" value="689" />
         </counts>
       </usages-collector>
     </session>
@@ -111,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="180">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -317,6 +320,11 @@
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Runs tests on the JUnit Platform." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="junitPlatformTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Processes main resources." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processResources" />
@@ -418,9 +426,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6180155291000" />
+        <entry key="$PROJECT_DIR$" value="6180157447000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2672921824" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1884500135" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3864771997" />
       </map>
@@ -435,6 +443,24 @@
                   <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-gradle-plugin/1.2.0/16f9aaf80b6c0d6b19c4ae569f7689b831564907/junit-platform-gradle-plugin-1.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/777508fa9f3e03cafb3c1fb2eba3dca317f4b1ee/apiguardian-api-1.0.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.2.0/d61c092233062b813179addbd47369f6419c4728/junit-platform-console-1.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.2.0/b32581c04c824708e8e83a99365323c3cc4da8c8/junit-platform-launcher-1.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.2.0/1bfa9b12b39daca1113cf24c7dfa3ced520e08cd/junit-platform-engine-1.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.2.0/bf6544529adb99bb5b81454f44ab69f5935be4af/junit-platform-commons-1.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.0/80aaf67bc5cc5e749baf41b9b523f8939aaaca28/opentest4j-1.1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-gradle-plugin/1.2.0/dd540b38507f410ef0b0d3eab1d35c690f98780d/junit-platform-gradle-plugin-1.2.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.2.0/945a6e1dc84fb16450bbdc0fa5043ab8572491f/junit-platform-console-1.2.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.2.0/ea230ba8c0b71943d4dd2bb215ca29041c89966e/junit-platform-launcher-1.2.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.2.0/35fa3529ce843ada1a10b0909ccb4a8148ee638d/junit-platform-engine-1.2.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.2.0/dbce1d822d3dc6c61703b340cd79018518685451/junit-platform-commons-1.2.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.0/c8e2a3e3bc7f3e4bb5075306452db5290f9b117a/opentest4j-1.1.0.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -671,7 +697,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545562852241" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545564204592" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -710,6 +736,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaDomain [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="JavaDomain [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -728,7 +772,7 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="JavaDomain [publishMavenJavaPublicationToLocalRepository]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JavaDomain [junitPlatformTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -739,25 +783,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="publishMavenJavaPublicationToLocalRepository" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="JavaDomain [publishModulePublicationToLocalRepository]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="publishModulePublicationToLocalRepository" />
+            <option value="junitPlatformTest" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -812,19 +838,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.JavaDomain [publishMavenJavaPublicationToLocalRepository]" />
-      <item itemvalue="Gradle.JavaDomain [publishModulePublicationToLocalRepository]" />
       <item itemvalue="Gradle.JavaDomain [clean]" />
       <item itemvalue="Gradle.JavaDomain [test]" />
       <item itemvalue="JUnit.イベント検索Test" />
+      <item itemvalue="Gradle.JavaDomain [build]" />
+      <item itemvalue="Gradle.JavaDomain [junitPlatformTest]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.イベント検索Test" />
+        <item itemvalue="Gradle.JavaDomain [junitPlatformTest]" />
+        <item itemvalue="Gradle.JavaDomain [build]" />
         <item itemvalue="Gradle.JavaDomain [test]" />
         <item itemvalue="Gradle.JavaDomain [clean]" />
-        <item itemvalue="Gradle.JavaDomain [publishModulePublicationToLocalRepository]" />
-        <item itemvalue="Gradle.JavaDomain [publishMavenJavaPublicationToLocalRepository]" />
       </list>
     </recent_temporary>
   </component>
@@ -854,6 +880,24 @@
     <history-entry file="イベント検索Test - 2018.12.23 at 20h 00m 48s.xml">
       <configuration name="イベント検索Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="イベント検索Test - 2018.12.23 at 20h 00m 55s.xml">
+      <configuration name="イベント検索Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaDomain_[test] - 2018.12.23 at 20h 08m 41s.xml">
+      <configuration name="JavaDomain [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="JavaDomain_[test] - 2018.12.23 at 20h 10m 03s.xml">
+      <configuration name="JavaDomain [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="イベント検索Test - 2018.12.23 at 20h 14m 46s.xml">
+      <configuration name="イベント検索Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="イベント検索Test - 2018.12.23 at 20h 14m 55s.xml">
+      <configuration name="イベント検索Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaDomain_[test] - 2018.12.23 at 20h 15m 22s.xml">
+      <configuration name="JavaDomain [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -877,7 +921,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32985386" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.47244897" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
@@ -885,12 +929,13 @@
       <window_info anchor="bottom" id="SBT Console" order="12" />
       <window_info anchor="bottom" id="Console" order="13" />
       <window_info anchor="bottom" id="Build" order="14" weight="0.32959184" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.50076103" side_tool="true" weight="0.2893773" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.2893773" />
+      <window_info anchor="right" id="Gradle" order="5" sideWeight="0.49923897" visible="true" weight="0.2893773" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -998,17 +1043,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/2.23.4/e79d6860ca4fbc077fb66729b33e5950b591eaac/mockito-junit-jupiter-2.23.4-sources.jar!/org/mockito/junit/jupiter/MockitoExtension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
           <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
